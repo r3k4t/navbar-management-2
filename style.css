@@ -60,14 +60,14 @@ li a:hover{
 .sec1{
     background:url(thumnail.jpg) no-repeat;
     background-size: cover;
-    height:height:calc(100vh - 80px);
+    height:height:calc(100vh - 90px);
 }
 
 .sec2{
     
     background:url(img.jpg) no-repeat;
     background-size: cover;
-    height:height:calc(100vh - 80px);
+    height:height:calc(100vh - 90px);
 
  
 }
