@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hide Navbar on Scroll</title>
+</head>
+
+<body>
+
+    <nav>
+        <input type="checkbox"  id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+
+        <label class="logo">DesignX</label>
+
+        <ul>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+
+
+
+        </ul>
+
+
+    </nav>
+
+    <div class="sec1"></div>
+
+        <h1 >About Section</h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore repellendus odit sequi? Quod et, modi
+            consequatur id quisquam est voluptatem maxime consectetur obcaecati nam nulla dolores, numquam vel deleniti
+            neque animi excepturi dolore facilis ea voluptatibus quae! Quam harum iure provident explicabo quibusdam
+            inventore, assumenda et non, autem labore, minus optio laboriosam amet quos hic aspernatur maxime.
+            Provident, a, eaque aliquid blanditiis quam quidem odio reiciendis doloremque quaerat consequuntur nihil
+            saepe numquam adipisci ratione ducimus corporis quis neque architecto esse aut. Nemo pariatur earum delectus
+            iure unde voluptatem in officia sint cupiditate minus iste libero, id consectetur consequuntur sunt eos
+            doloribus deserunt nam repellendus rem, excepturi beatae sed. Dolor quo tenetur quae obcaecati sint, sunt
+            pariatur voluptate voluptatum maiores facere veniam illum nam nihil eveniet eaque atque quaerat expedita
+            totam libero ipsa id tempora quidem ipsam! Labore velit dolores, facere soluta pariatur provident, minus
+            ipsam dignissimos culpa nemo aperiam doloremque maiores consequatur, eaque consectetur voluptates saepe rem
+            optio repellat corporis. Obcaecati nam quibusdam neque non vero accusamus vitae expedita praesentium iste
+            nostrum fugiat dicta blanditiis qui tenetur, maiores architecto sint voluptas magnam dolorum numquam, nihil
+            dolorem sed facilis. Error placeat architecto neque fuga officia reprehenderit, minima culpa labore sed nisi
+            omnis exercitationem inventore iusto repellat nemo hic? Quae ipsum optio accusamus ad, blanditiis ullam
+            minus pariatur maiores animi ex enim nemo repellat saepe sed? Eaque, soluta aspernatur quam animi voluptate
+            cupiditate nobis numquam aperiam sunt odio sit dolores dignissimos repellat excepturi tempora laborum sint
+            adipisci deleniti? Expedita cupiditate unde laboriosam a ad soluta ab sequi temporibus natus quidem, nam
+            suscipit illo sapiente inventore quibusdam! Blanditiis non dolorem, doloribus ratione quisquam doloremque
+            cupiditate, porro quod repellendus id tenetur voluptates eaque libero odio expedita fugit numquam molestiae
+            sed dolores eius sint labore eveniet. Voluptas deleniti architecto sapiente itaque possimus in dolor sit?
+        </p>
+
+        <br>
+        <br>
+    
+     <div class="sec2"></div>
+
+        <h1>Services Section</h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore repellendus odit sequi? Quod et, modi
+            consequatur id quisquam est voluptatem maxime consectetur obcaecati nam nulla dolores, numquam vel deleniti
+            neque animi excepturi dolore facilis ea voluptatibus quae! Quam harum iure provident explicabo quibusdam
+            inventore, assumenda et non, autem labore, minus optio laboriosam amet quos hic aspernatur maxime.
+            Provident, a, eaque aliquid blanditiis quam quidem odio reiciendis doloremque quaerat consequuntur nihil
+            saepe numquam adipisci ratione ducimus corporis quis neque architecto esse aut. Nemo pariatur earum delectus
+            iure unde voluptatem in officia sint cupiditate minus iste libero, id consectetur consequuntur sunt eos
+            doloribus deserunt nam repellendus rem, excepturi beatae sed. Dolor quo tenetur quae obcaecati sint, sunt
+            pariatur voluptate voluptatum maiores facere veniam illum nam nihil eveniet eaque atque quaerat expedita
+            totam libero ipsa id tempora quidem ipsam! Labore velit dolores, facere soluta pariatur provident, minus
+            ipsam dignissimos culpa nemo aperiam doloremque maiores consequatur, eaque consectetur voluptates saepe rem
+            optio repellat corporis. Obcaecati nam quibusdam neque non vero accusamus vitae expedita praesentium iste
+            nostrum fugiat dicta blanditiis qui tenetur, maiores architecto sint voluptas magnam dolorum numquam, nihil
+            dolorem sed facilis. Error placeat architecto neque fuga officia reprehenderit, minima culpa labore sed nisi
+            omnis exercitationem inventore iusto repellat nemo hic? Quae ipsum optio accusamus ad, blanditiis ullam
+            minus pariatur maiores animi ex enim nemo repellat saepe sed? Eaque, soluta aspernatur quam animi voluptate
+            cupiditate nobis numquam aperiam sunt odio sit dolores dignissimos repellat excepturi tempora laborum sint
+            adipisci deleniti? Expedita cupiditate unde laboriosam a ad soluta ab sequi temporibus natus quidem, nam
+            suscipit illo sapiente inventore quibusdam! Blanditiis non dolorem, doloribus ratione quisquam doloremque
+            cupiditate, porro quod repellendus id tenetur voluptates eaque libero odio expedita fugit numquam molestiae
+            sed dolores eius sint labore eveniet. Voluptas deleniti architecto sapiente itaque possimus in dolor sit?
+        </p>
+
+   <script>
+ 
+  var scroll1 = windows.pageYOffset;
+  windows.onscroll = function(){
+    var scroll2 = window.pageYOffset;
+    if(scroll1 > scroll2){
+        document.querySelector('nav').style.top = "0"
+    }else{
+        document.querySelector('nav').style.top = "-100px"
+    }
+    scroll1 = scroll2;
+  }
+
+
+
+   </script>
+
+    
+
+</body>
+
+</html>
