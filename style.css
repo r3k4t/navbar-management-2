@@ -144,27 +144,6 @@ p{
         color:#0082e6;
     }
 
-    .sec1{
-    
-        background:url(thumnail.jpg) no-repeat;
-        background-size:cover;
-        height:490px;
-        width:850px;
-    
-     
-    }
-
-
-    .sec2{
-    
-        background:url(img.jpg) no-repeat;
-        background-size: cover;
-        height:490px;
-        width:850px;
-        
-     
-    }
-
 
     #check:checked ~ ul{
         left:0;
